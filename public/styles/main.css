@@ -2,6 +2,20 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
-table, td, tr {
+table, thead, tr, th, tbody, td {
+  margin: 0;
+  padding: 0;
+  border: 1px, black, solid;
+  text-align: left;
+}
+
+td {
+  font-weight: : 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #827762;
+}
+
+.content {
   border: 1px, black, solid;
 }
