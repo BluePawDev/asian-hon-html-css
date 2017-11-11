@@ -6,6 +6,10 @@
 td {
   font-weight: : 400;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 15px;
   color: #827762;
+}
+
+h3 {
+  border: 1px, black, solid;
 }

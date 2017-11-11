@@ -9,12 +9,14 @@
 
 
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel='stylesheet' href='../styles/main.css'>
+    <link rel='stylesheet' href='../styles/menu.css'>
 
     <title>Asian Hon</title>
-
   </head>
+
+
   <body>
     <!-- START .header -->
     <div class='header'>
@@ -30,9 +32,9 @@
         <!-- START .nav-top -->
         <div class='nav-top'>
           <ul>
-            <li><a href='#'>Home</a></li>
+            <li><a href='../../index.html'>Home</a></li>
             <li><a href='#'>Pick-up/Dine-in Menu</a></li>
-            <li><a href='#'>Delivery Menu</a></li>
+            <li>Delivery Menu</li>
             <li><a href='#'>Catering</a></li>
             <li><a href='#'>Contact</a></li>
           </ul>
@@ -44,7 +46,7 @@
     </div>
     <!-- END .header -->
 
-    <div class='menu'>
+    <div class='content menu'>
       <h2>Delivery Menu</h2>
       <h4>Delivery Subject to Availability and following Restrictions:</h4>
       <ul>
@@ -57,12 +59,12 @@
         <h3>Beverages</h3>
         <p>All beverages for delivery orders are soft drinks in 20 fl. oz. bottles.<br>The following are the beverages available for delivery:</p>
         <ul>
-          <li><img src='images/pepsi-logo.png' alt='pepsi logo' class='logos'> Pepsi</li>
-          <li><img src="images/pepsi-diet-logo.png" alt="diet pepsi logo" class="logos"> Diet Pepsi</li>
-          <li><img src="images/mountain-dew-logo.png" alt="mountain dew logo" class='logos'> Mountain Dew</li>
-          <li><img src="images/doctor-pepper-logo.png" alt="doctor pepper logo" class='logos'> Dr. Pepper</li>
-          <li><img src="images/mist-twist-logo.png" alt="mist twist logo" class='logos'> Mist Twist</li>
-          <li><img src="images/crush-orange-logo.png" alt="orange crush logo" class='logos'> Orange Crush</li>
+          <li>Pepsi</li>
+          <li>Diet Pepsi</li>
+          <li>Mountain Dew</li>
+          <li>Dr. Pepper</li>
+          <li>Mist Twist</li>
+          <li>Orange Crush</li>
           <li>Lemon Iced Tea</li>
           <li>Lemonade</li>
         </ul>
@@ -71,84 +73,164 @@
 
 <!-- START .menu -->
 <div class='menu'>
-  <table>
+  <!-- START table .appetizers -->
+  <table class='appetizers'>
     <thead>
       <tr>
-        <th>Appetizers</th>
+        <th><h3>Appetizers</h3></th>
       </tr>
-      <!-- <tr>
-        <th>CR</th>
-        <th>Item</th>
-        <th>Pt.</th>
-        <th>Qt.</th>
-      </tr> -->
     </thead>
     <tbody>
       <tr>
-        <td></td>
-        <td>Egg Rolls (2)</td>
-        <td></td>
-        <td>$3.95</td>
+        <td class='menu-item'>Chicken Nuggets (10)</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$3.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
         <td class='menu-item'>Cream Cheese Wontons (6)</td>
         <td class='price-pt'></td>
         <td class='price-qt'>$3.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
+        <td class='menu-item'>Egg Rolls (2)</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$3.95</td>
+      </tr>
+      <tr>
+        <td class='menu-item'>French Fries</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$3.95</td>
+      </tr>
+      <tr>
+        <td class='menu-item'>Fried Onion Rings</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$3.95</td>
+      </tr>
+      <tr>
         <td class='menu-item'>Fried Spring Rolls (2)</td>
         <td class='price-pt'></td>
         <td class='price-qt'>$3.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
-        <td class='menu-item'>Chicken Wings (6)</td>
+        <td class='menu-item'>Fried Sweet Doughnuts (10)</td>
         <td class='price-pt'></td>
-        <td class='price-qt'>$5.95</td>
+        <td class='price-qt'>$3.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
-        <td class='menu-item'>Teriyaki Chicken Wings (6)</td>
+        <td class='menu-item'>Fried Scallops (8)</td>
         <td class='price-pt'></td>
-        <td class='price-qt'>$5.95</td>
+        <td class='price-qt'>$4.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
-        <td class='menu-item'>Fried Dumplings (6)</td>
-        <td class='price-pt'></td>
-        <td class='price-qt'>$5.95</td>
+        <td class='menu-item'>Fried Shrimp (6)</td>
+        <td class='price-pt'> </td>
+        <td class='price-qt'>$4.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
-        <td class='menu-item'>Steamed Dumplings (6)</td>
+        <td class='menu-item'>Fried Tofu</td>
         <td class='price-pt'></td>
-        <td class='price-qt'>$5.95</td>
+        <td class='price-qt'>$4.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
         <td class='menu-item'>BBQ Pork</td>
         <td class='price-pt'></td>
         <td class='price-qt'>$5.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
-        <td class='menu-item'>Teriyaki Chicken (4)</td>
+        <td class='menu-item'>Chicken Wings (6)</td>
         <td class='price-pt'></td>
-        <td class='price-qt'>$6.95</td>
+        <td class='price-qt'>$5.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
+        <td class='menu-item'>Fried Dumplings (6)</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$5.95</td>
+      </tr>
+      <tr>
+        <td class='menu-item'>Steamed Dumplings (6)</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$5.95</td>
+      </tr>
+      <tr>
+        <td class='menu-item'>Teriyaki Chicken Wings (6)</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$5.95</td>
+      </tr>
+      <tr>
         <td class='menu-item'>Teriyaki Beef (4)</td>
         <td class='price-pt'></td>
         <td class='price-qt'>$6.95</td>
       </tr>
       <tr>
-        <td class='chef-rec'></td>
-        <td class='menu-item'>Fried Shrimp (6)</td>
+        <td class='menu-item'>Teriyaki Chicken (4)</td>
         <td class='price-pt'></td>
-        <td class='price-qt'>$4.95</td>
+        <td class='price-qt'>$6.95</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- END table .appetizers -->
+
+  <!-- START table .fried-rice -->
+  <table class='fried-rice'>
+    <thead>
+      <tr>
+        <th>Fried Rice</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Vegetable</td>
+        <td class='price-pt'>$3.95</td>
+        <td class='price-qt'>$7.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Chicken</td>
+        <td class='price-pt'>$4.95</td>
+        <td class='price-qt'>$8.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Roast Pork</td>
+        <td class='price-pt'>$4.95</td>
+        <td class='price-qt'>$8.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Beef</td>
+        <td class='price-pt'>$5.95</td>
+        <td class='price-qt'>$9.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Shrimp</td>
+        <td class='price-pt'>$5.95</td>
+        <td class='price-qt'>$9.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>House with Chicken, Roast Pork and Shrimp</td>
+        <td class='price-pt'>$5.95</td>
+        <td class='price-qt'>$10.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Thai Pineapple with Chicken and Shrimp</td>
+        <td class='price-pt'>$5.95</td>
+        <td class='price-qt'>$10.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'></td>
+        <td class='price-pt'></td>
+        <td class='price-qt'></td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'></td>
+        <td class='price-pt'></td>
+        <td class='price-qt'></td>
       </tr>
       <tr>
         <td class='chef-rec'></td>
@@ -164,44 +246,83 @@
       </tr>
     </tbody>
   </table>
+  <!-- END table .fried-rice -->
+
+  <!-- START table .lo-mein -->
+  <table class='lo-mein'>
+    <thead>
+      <tr class='tbl-title'>
+        <th class='tbl-category'>Lo Mein</th>
+      </tr>
+      <tr class='tbl-description'>
+        <td class='category-description'>Lo Mein style is made with soft noodles.</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Plain</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$6.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Vegetable</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$7.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Chicken</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$8.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Roast Pork</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$8.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Beef</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$9.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>Shrimp</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$10.95</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'>House with Chicken, Roast Pork and Shrimp</td>
+        <td class='price-pt'></td>
+        <td class='price-qt'>$10.95</td>
+      </tr>
+      <tr>
+        <td class='item-description'>with Chicken, Roast Pork and Shrimp</td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'></td>
+        <td class='price-pt'></td>
+        <td class='price-qt'></td>
+      </tr>
+      <tr>
+        <td class='chef-rec'></td>
+        <td class='menu-item'></td>
+        <td class='price-pt'></td>
+        <td class='price-qt'></td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- END table .lo-mein -->
 
 </div>
-      <!-- START .appetizers -->
-      <div class='appetizers'>
-        <h3>Appetizers</h3>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-
-      </div>
-      <!-- END .appetizers -->
 
 
-Fried Scallops (8)	4.95
-Fried Tofu	4.95
-Chicken Nuggets (10)	3.95
-French Fries	3.95
-Fried Sweet Doughnuts (10)	3.95
-Fried Onion Rings	3.95
-Fried Rice
-Pint	Quart
-Vegetable	3.95	7.95
-Chicken	4.95	8.95
-Roast Pork	4.95	8.95
-Beef	5.95	9.95
-Shrimp	5.95	9.95
-House (with Chicken, Roast Pork and Shrimp)	5.95	10.95
-Thai Pineapple (with Chicken and Shrimp)	5.95	10.95
-Thai Curry (with Chicken and Shrimp)	5.95	10.95
-Lo Mein
-Lo Mein style is made with soft noodles.
-Plain	6.95
-Vegetable	7.95
-Chicken	8.95
-Roast Pork	8.95
-Beef	9.95
-Shrimp	10.95
 House (with Chicken, Roast Pork and Shrimp)	10.95 (Chef's Recommendation)
 Seafood (with Shrimp, Crab Meat and Squid	12.95
 Mai Fun
