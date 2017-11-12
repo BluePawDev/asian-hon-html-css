@@ -8,23 +8,8 @@ Pork	8.95
 Shrimp	10.95
 
 
-Kung Pao
-Kung Pao style is a spicy stir-fry dish topped with Peanuts and served with White Rice.
-Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.
-Fried Tofu	7.95
-Chicken	8.95 (Chef's Recommendation)
-Roast Pork	8.95
-Beef	9.95
-Shrimp	10.95
 
 
-Szechuan
-Szechuan style is a red chili-based sauce stir fried with vegetables and served with white rice.
-Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.
-Chicken	8.95 (Chef's Recommendation)
-Roast Pork	8.95
-Beef	9.95
-Shrimp	10.95
 
 
 Mongolian
@@ -62,15 +47,8 @@ Sesame Shrimp	12.95
 
 
 Chef's Specials
-Chef's Special Dishes are served with White Rice.
-General's Chicken	10.95 (Chef's Recommendation)
-Lemon Chicken	10.95
-Orange Chicken	10.95
-Orange Shrimp	12.95
-Happy Family	14.95
-*(Chicken, Beef, Shrimp, Roast Pork with mixed vegetables in a brown sauce)
-Four Seasons	14.95
-*(Chicken, Beef, Shrimp, and Roast Pork with mixed vegetables in a brown sauce)
+
+
 Triple Crown	13.95
 *(Chicken, Beef and Shrimp with mixed vegetables in a brown sauce)
 Lover's Delight 	14.95
