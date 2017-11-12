@@ -6,7 +6,8 @@ ul.leaders {
   font-weight: 400;
   font-size: 13px;
   color: #3f454d;
-  line-height: 18px
+  line-height: 18px;
+  margin-top: .4em;
 }
 
 ul.leaders li:before {
@@ -28,18 +29,13 @@ ul.leaders span+span {
 }
 
 .description {
-  list-style: none;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 14px;
   font-style: italic;
   color: #3f454d;
   line-height: 18px;
-  margin-left: 15px;
-  margin-bottom: 5px;
-}
-
-h4 {
-  margin-bottom: 0;
+  margin: 0;
+  margin-left: -1em;
 }
 
 .chef-rec {
@@ -51,4 +47,9 @@ h4 {
 .menu-div {
   width: 70%;
   margin: 0 20%;
+}
+
+h4 {
+  margin: 0 0 0 -2%;
+  font-size: 1.15em;
 }
