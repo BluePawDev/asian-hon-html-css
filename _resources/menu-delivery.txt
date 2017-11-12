@@ -1,30 +1,42 @@
-House (with Chicken, Roast Pork and Shrimp)	10.95 (Chef's Recommendation)
-Seafood (with Shrimp, Crab Meat and Squid	12.95
-Mai Fun
-Mai Fun style is made with thin rice noodle
-Vegetable	7.95
-Chicken	8.95
-Roast Pork	8.95
-Beef	9.95
-Shrimp	10.95
-Singapore (with Pork and Shrimp	10.95 (Chef's Recommendation)
-House (with Chicken, Roast Pork and Shrimp	11.95
-Seafood (with Shrimp, Crab Meat and Squid	12.95
-Chow Fun
-Chow Fun style is made with flat Rice Noodle
-Items marked with * are the Chef's Recommendation
-Vegetable	7.95
-Chicken	8.95
-Roast Pork	8.95
-Beef*	10.95
-Shrimp	10.95
-House (with Chicken, Roast Pork and Shrimp)	11.95
-Seafood (with Shrimp, Crab Meat and Squid)	12.95
+Lo Mein (Soft Noodles)
+Plain......................................$6.95
+Vegetable...............................$7.95
+Chicken..................................$8.95
+Roast Pork.............................$8.95
+Beef.......................................$9.95
+Shrimp..................................$10.95
+House (w/Chicken, Roast Pork & Shrimp)......$10.95 (Chef's Recommendation)
+Seafood (w/Shrimp, Crab Meat & Squid).............$12.95
+
+
+Mai Fun (Thin Rice Noodle)
+Vegetable...................................$7.95
+Chicken......................................$8.95
+Roast Pork..................................$8.95
+Beef............................................$9.95
+Shrimp........................................$10.95
+Singapore (w/Pork & Shrimp)....$10.95 (Chef's Recommendation)
+House (w/Chicken, Roast Pork & Shrimp)....$11.95
+Seafood (w/Shrimp, Crab Meat & Squid).............$12.95
+
+
+Chow Fun (Flat Rice Noodle)
+Vegetable...................................$7.95
+Chicken......................................$8.95
+Roast Pork..................................$8.95
+Beef...........................................$10.95 (Chef's Recommendation)
+Shrimp.......................................$10.95
+House (w/Chicken, Roast Pork & Shrimp)...........$11.95
+Seafood (w/Shrimp, Crab Meat & Squid).............$12.95
+
+
 Sweet and Sour
 Sweet and Sour style is served with White Rice.
 Chicken	8.95 (Chef's Recommendation)
 Pork	8.95
 Shrimp	10.95
+
+
 Kung Pao
 Kung Pao style is a spicy stir-fry dish topped with Peanuts and served with White Rice.
 Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.
@@ -33,6 +45,8 @@ Chicken	8.95 (Chef's Recommendation)
 Roast Pork	8.95
 Beef	9.95
 Shrimp	10.95
+
+
 Szechuan
 Szechuan style is a red chili-based sauce stir fried with vegetables and served with white rice.
 Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.
@@ -40,6 +54,8 @@ Chicken	8.95 (Chef's Recommendation)
 Roast Pork	8.95
 Beef	9.95
 Shrimp	10.95
+
+
 Mongolian
 Mongolian Style is served with White Rice.
 Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.
@@ -47,6 +63,8 @@ Chicken	8.95
 Roast Pork	8.95
 Beef	9.95 (Chef's Recommendation)
 Shrimp	10.95
+
+
 Hunan
 Hunan style is a Dark Soy Sauce-based stir fried with Vegetables and served with White Rice
 Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.
@@ -54,6 +72,8 @@ Chicken	8.95
 Roast Pork	8.95
 Beef	9.95
 Shrimp	10.95
+
+
 Broccoli with Garlic Sauce
 Broccoli with Garlic Sauce style is served with White Rice.
 Broccoli with Garlic Sauce	8.95
@@ -61,11 +81,15 @@ Chicken with Broccoli	8.95
 Roast Pork with Broccoli	8.95
 Beef with Broccoli*	9.95 (Chef's Recommendation)
 Shrimp with Broccoli	10.95
+
+
 Sesame
 Sesame style is served with White Rice.
 Sesame Chicken	10.95 (Chef's Recommendation)
 Sesame Beef	11.95
 Sesame Shrimp	12.95
+
+
 Chef's Specials
 Chef's Special Dishes are served with White Rice.
 General's Chicken	10.95 (Chef's Recommendation)
@@ -93,6 +117,8 @@ Seafood Delight	17.95
 Shrimp, Scallops, Crab Meat and Squid stir fried with Mixed Vegetables
 Seven Stars	16.95
 Chicken, Roast Pork, Crab Meat and Mixed Vegetables topped with seven Jumbo Fried Shrimp
+
+
 Pad Thai
 Pad Thai is rice noodles stir fried with eggs, bean sprouts, green onions, garlic and topped with roasted ground peanuts.
 Fried Tofu	8.95
@@ -100,12 +126,16 @@ Chicken	9.95 (Chef's Recommendation)
 Roast Pork	9.95
 Beef	10.95
 Shrimp	11.95
+
+
 Cashew
 Cashew style is stir fried with Vegetables topped with Cashews and served with White Rice.
 Chicken	8.95 (Chef's Recommendation)
 Roast Pork	8.95
 Beef	9.95
 Shrimp	10.95
+
+
 Curry
 Curry style is served with white rice.
 Fried Tofu	8.95
@@ -113,6 +143,8 @@ Chicken	8.95 (Chef's Recommendation)
 Roast Pork	8.95
 Beef	9.95
 Shrimp	10.95
+
+
 Veggie Delight
 Veggie Delight is brown sauce stir fried Vegetables served with White Rice.
 Vegetable Delights	8.95
