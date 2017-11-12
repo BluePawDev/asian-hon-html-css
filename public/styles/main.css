@@ -5,7 +5,8 @@
 table, thead, tr, th, tbody, td {
   margin: 0;
   padding: 0;
-  border: 1px, black, solid;
+  border-collapse: collapse;
+  border: 1px black solid;
   text-align: left;
 }
 
@@ -16,6 +17,33 @@ td {
   color: #827762;
 }
 
-.content {
-  border: 1px, black, solid;
+.nav-wrapper {
+  width: 100%;
+  background-color: #D3D3D3;
+  position: fixed;
+  display: block;
+}
+
+.nav-top {
+  list-style-type: none;
+  /*position: fixed;*/
+}
+
+.nav-top>li {
+  float: left;
+}
+
+.nav-top>li>a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.nav-top>li>a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
 }

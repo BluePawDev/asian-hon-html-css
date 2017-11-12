@@ -1,0 +1,104 @@
+<form class='' action='index.html' method='post'>
+  <fieldset>
+    <legend>Input List Types:</legend>
+
+  <br>
+  <!-- TYPE AHEAD -->
+  <label for="browsers">Select your prefered browser:</label>
+    <input list="browsers">
+      <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+
+    <br>
+    <!-- BASIC DROPDOWN -->
+    <label for='cars'>Select a vehicle:</label>
+      <select name='cars'>
+        <option value='acura'>Acura</option>
+        <option value='alfa romeo'>Alfa Romeo</option>
+        <option value='audi'>Audi</option>
+        <option value='bmw'>BMW</option>
+        <option value='buick'>Buick</option>
+        <option value='cadillac'>Cadillac</option>
+        <option value='chevrolet'>Chevrolet</option>
+        <option value='chrysler'>Chrysler</option>
+        <option value='dodge'>Dodge</option>
+        <option value='ducati'>Ducati</option>
+        <option value='ferrari'>Ferrari</option>
+        <option value='fiat'>Fiat</option>
+        <option value='ford'>Ford</option>
+        <option value='gmc'>GMC</option>
+        <option value='honda' selected>Honda</option>
+        <option value='infiniti'>Infiniti</option>
+        <option value='jeep'>Jeep</option>
+        <option value='lamborghini'>Lamborghini</option>
+        <option value='lexus'>Lexus</option>
+        <option value='lincoln'>Lincoln</option>
+        <option value='maserati'>Maserati</option>
+        <option value='mazda'>Mazda</option>
+        <option value='mercedes-benz'>Mercedes-Benz</option>
+        <option value='mitsubishi'>Mitsubishi</option>
+        <option value='nissan'>Nissan</option>
+        <option value='porsche'>Porsche</option>
+        <option value='subaru'>Subaru</option>
+        <option value='tesla'>Tesla</option>
+        <option value='toyota'>Toyota</option>
+        <option value='volkswagen'>Volkswagen</option>
+      </select>
+
+      <br>
+      <!-- SELECT MULTIPLE -->
+      <label for='state'>Select a state:</label>
+      <label for='state'>Hold CTRL or CMD to select multiple</label>
+        <select name='state' size='6' multiple>
+          <option value='al'>Alabama (AL)</option>
+          <option value='ak'>Alaska (AK)</option>
+          <option value='az'>Arizona (AZ)</option>
+          <option value='ar'>Arkansas (AR)</option>
+          <option value='ca'>California (CA)</option>
+          <option value='co'>Colorado (CO)</option>
+          <option value='ct'>Connecticut (CT)</option>
+          <option value='de'>Delaware (DE)</option>
+          <option value='fl'>Florida (FL)</option>
+          <option value='ga'>Georgia (GA)</option>
+          <option value='hi'>Hawaii (HI)</option>
+          <option value='id'>Idaho (ID)</option>
+          <option value='il'>Illinois (IL)</option>
+          <option value='in'>Indiana (IN)</option>
+          <option value='ia'>Iowa (IA)</option>
+          <option value='ks'>Kansas (KS)</option>
+          <option value='ky'>Kentucky (KY)</option>
+          <option value='la'>Louisiana (LA)</option>
+          <option value='me'>Maine (ME)</option>
+          <option value='md'>Maryland (MD)</option>
+          <option value='ma'>Massachusetts (MA)</option>
+          <option value='mi'>Michigan (MI)</option>
+          <option value='mn' selected>Minnesota (MN)</option>
+          <option value='ms'>Mississippi (MS)</option>
+          <option value='mo'>Missouri (MO)</option>
+          <option value='mt'>Montana (MT)</option>
+          <option value='ne'>Nebraska (NE)</option>
+          <option value='nv'>Nevada (NV)</option>
+          <option value='nh'>New Hampshire (NH)</option>
+          <option value='nj'>New Jersey (NJ)</option>
+        </select>
+
+    <br>
+    <label for='gender'>Choose one:</label><br>
+      <input type='radio' name='gender' value='male' checked> Male<br>
+      <input type='radio' name='gender' value='female'> Female<br>
+      <input type='radio' name='gender' value='other'> Other<br>
+
+    <br>
+    <input type=submit name='cmdSubmit' value='Submit'>
+    <button type=button name='button'>Button</button>
+
+  </fieldset>
+
+
+
+</form>
