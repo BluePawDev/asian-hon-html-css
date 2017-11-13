@@ -45,7 +45,7 @@ ul.leaders span+span {
 }
 
 .menu-div {
-  width: 70%;
+  width: 83%;
   margin: 0 20%;
 }
 
@@ -55,8 +55,7 @@ h4 {
 }
 
 ul.leaders {
-  max-width: 45em;
-  padding: 0;
+  max-width: 100%;
   overflow-x: hidden;
   list-style: none;
   font-weight: 400;
@@ -97,4 +96,21 @@ ul.leaders span+span {
 
 li {
   margin-bottom: .6em
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  height: 10em;
+  width: 10em;
 }
