@@ -28,14 +28,53 @@ ul.leaders span+span {
   background: white
 }*/
 
-.description {
+/* MENU BODY */
+
+.menu-body {
+  /*border: 2pt green solid;*/
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* TWO COLUMN LAYOUT */
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+  /*border: 1pt red solid;*/
+  margin: 0 auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* MENU DIV SECTIONS */
+
+.menu-div {
+  width: 95%;
+  margin: 0 auto;
+  border: 1pt black solid
+}
+
+.dish-style {
+  margin: 0;
+  font-size: 1.15em;
+}
+
+/**/
+
+.dish-style-desc {
   font-weight: 500;
   font-size: 14px;
   font-style: italic;
   color: #3f454d;
   line-height: 18px;
   margin: 0;
-  margin-left: -1em;
+  margin-left: .5em;
 }
 
 .chef-rec {
@@ -44,15 +83,7 @@ ul.leaders span+span {
   vertical-align: bottom;
 }
 
-.menu-div {
-  width: 83%;
-  margin: 0 20%;
-}
-
-h4 {
-  margin: 0 0 0 -2%;
-  font-size: 1.15em;
-}
+/* LEADERS */
 
 ul.leaders {
   max-width: 100%;
@@ -63,6 +94,7 @@ ul.leaders {
   color: #3f454d;
   /*line-height: 18px;*/
   margin-top: .4em;
+  /*border: 1pt black solid*/
 }
 
 ul.leaders li:after {
@@ -94,21 +126,12 @@ ul.leaders span+span {
   font-size: .9em;
 }
 
-li {
-  margin-bottom: .6em
+ul.leaders li {
+  margin-bottom: .6em;
+  /*border: 1pt blue solid*/
 }
 
-.column {
-  float: left;
-  width: 40%;
-  padding: 5px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+/* IMAGES */
 
 img {
   height: 10em;
