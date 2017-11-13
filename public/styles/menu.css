@@ -44,8 +44,10 @@
 .dish-style {
   margin: 0;
   padding-left: 2px;
-  font-size: 1.15em;
+  font-size: 1.75em;
+  font-weight: bold;
   color: #7A0309;
+  font-family: Rokkitt, Arial, Helvetica, sans-serif;
 }
 
 .dish-style-desc {
