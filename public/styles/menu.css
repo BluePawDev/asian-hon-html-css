@@ -1,49 +1,19 @@
-/*ul.leaders {
-  max-width: 40em;
-  padding: 0;
-  overflow-x: hidden;
-  list-style: none;
-  font-weight: 400;
-  font-size: 13px;
-  color: #3f454d;
-  line-height: 18px;
-  margin-top: .4em;
-}
-
-ul.leaders li:before {
-  float: left;
-  width: 0;
-  white-space: nowrap;
-  content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . "
-}
-
-ul.leaders span:first-child {
-  padding-right: 0.33em;
-  background: white
-}
-
-ul.leaders span+span {
-  float: right;
-  padding-left: 0.33em;
-  background: white
-}*/
-
 /* MENU BODY */
 
 .menu-body {
-  /*border: 2pt green solid;*/
-  margin: 0 auto;
   width: 80%;
+  margin: 0 auto;
+  /*border: 1px purple solid;*/
 }
 
 /* TWO COLUMN LAYOUT */
 
 .column {
   float: left;
-  width: 45%;
-  padding: 5px;
-  /*border: 1pt red solid;*/
+  width: 50%;
   margin: 0 auto;
+  /*padding: 5px;*/
+  /*border: 1pt red solid;*/
 }
 
 .row:after {
@@ -57,30 +27,41 @@ ul.leaders span+span {
 .menu-div {
   width: 95%;
   margin: 0 auto;
-  border: 1pt black solid
+  /*border: 1pt black solid*/
 }
+
+/* MENU DISH COOKING STYLE */
 
 .dish-style {
   margin: 0;
   font-size: 1.15em;
 }
 
-/**/
-
 .dish-style-desc {
-  font-weight: 500;
-  font-size: 14px;
-  font-style: italic;
-  color: #3f454d;
-  line-height: 18px;
   margin: 0;
   margin-left: .5em;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  color: #3f454d;
 }
+
+/* MENU ITEMS */
 
 .chef-rec {
   height: 16px;
   width: 16px;
   vertical-align: bottom;
+}
+
+.dish {
+  font-weight: 600;
+}
+
+.dish-desc {
+  font-weight: 500;
+  font-size: .9em;
 }
 
 /* LEADERS */
@@ -94,7 +75,7 @@ ul.leaders {
   color: #3f454d;
   /*line-height: 18px;*/
   margin-top: .4em;
-  /*border: 1pt black solid*/
+  border: 2pt green solid
 }
 
 ul.leaders li:after {
@@ -105,30 +86,24 @@ ul.leaders li:after {
 }
 
 ul.leaders span:first-child {
-  padding-right: 0.33em;
+  /*padding-right: 0.33em;*/
   background: white
 }
 
 ul.leaders span+span {
   float: right;
-  padding-left: 0.33em;
+  /*padding-left: 0.33em;*/
   background: white;
   position: relative;
   z-index: 1
 }
 
-.dish {
-  font-weight: 600;
-}
-
-.dish-desc {
-  font-weight: 500;
-  font-size: .9em;
-}
-
 ul.leaders li {
   margin-bottom: .6em;
-  /*border: 1pt blue solid*/
+  margin-left: 0;
+  padding: 0;
+  /*max-width: 100%;*/
+  border: 1pt blue solid
 }
 
 /* IMAGES */
