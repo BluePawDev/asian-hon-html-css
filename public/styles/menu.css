@@ -1,42 +1,52 @@
+/* DELIVERY RESTRICTIONS */
+
+.del-restrisction {
+  width: 35%;
+  margin: 0 auto;
+  /*border: 1px red solid;*/
+  margin-top: 2em;
+}
+
 /* MENU BODY */
 
 .menu-body {
-  width: 65%;
-  /*height: 100%;*/
+  width: 60%;
   margin: 0 auto;
-  /*border: 1px purple solid;*/
   border: 1pt black solid;
   border-radius: 10px;
   box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 
 /* TWO COLUMN LAYOUT */
 
-.column {
-  float: left;
-  width: 50%;
-  margin: 0 auto;
-  /*padding: 5px;*/
-  /*border: 1pt black solid;*/
-  /*border-radius: 5px;*/
+.menu-col-0 {
+  flex: 4
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.menu-col-1 {
+  margin-right: 8px;
+  flex: 2;
+  order: 1;
+}
+
+.menu-col-2 {
+  margin-left: 8px;
+  flex: 2;
+  order: 2;
 }
 
 /* MENU DIV SECTIONS */
 
 .menu-div {
-  width: 97%;
+  width: 95%;
   margin: 0 auto;
   margin-top: 5px;
   padding-right: 5px;
-  /*border: 1pt black solid;
-  border-radius: 10px;
-  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);*/
 }
 
 /* MENU DISH COOKING STYLE */
@@ -87,9 +97,7 @@ ul.leaders {
   font-size: .85em;
   font-weight: 400;
   color: #3f454d;
-  /*line-height: 18px;*/
   margin-top: .4em;
-  /*border: 2pt green solid*/
 }
 
 ul.leaders li:after {
@@ -106,7 +114,6 @@ ul.leaders span:first-child {
 
 ul.leaders span+span {
   float: right;
-  /*padding-left: 0.33em;*/
   background: white;
   position: relative;
   z-index: 1
@@ -115,9 +122,6 @@ ul.leaders span+span {
 ul.leaders li {
   margin-bottom: .6em;
   margin-left: -1.55em;
-  /*padding: 0;*/
-  /*max-width: 100%;*/
-  /*border: 1pt blue solid*/
 }
 
 /* IMAGES */
@@ -131,4 +135,20 @@ li {
   margin-left: 0;
   padding: 0;
   margin: 0 auto;
+}
+
+.cater-lead {
+  font-family: Rokkitt, Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.menu-title {
+  font-size: 2em;
+  /*margin-bottom: 0;*/
+  text-align: center;
+}
+
+.del-restrictions {
+  text-align: center;
 }

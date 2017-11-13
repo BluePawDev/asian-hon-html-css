@@ -15,6 +15,8 @@
     <!-- STYLESHEETS -->
     <link rel='stylesheet' href='../styles/normalize.css'>
     <link rel='stylesheet' href='../styles/main.css'>
+    <link rel='stylesheet' href='../styles/flexbox-layout.css'>
+
     <link rel="stylesheet" href="../styles/menu.css">
 
     <title>Asian Hon</title>
@@ -28,6 +30,7 @@
       <!-- START .title -->
       <div class='title'>
         <a href='index.html'><h1>Asian Hon</h1></a>
+        <h2>Shakopee, MN</h2>
       </div>
       <!-- END .title -->
 
@@ -50,236 +53,256 @@
     </div>
     <!-- END .header -->
 
-      <h2>Delivery Menu</h2>
-      <h4>Delivery Subject to Availability and following Restrictions:</h4>
-      <ul>
-        <li>Minimum of $20 order, and;</li>
-        <li>Only within Shakopee, and</li>
-        <li>Within 2-mile radius of restaurant.</li>
-      </ul>
 
 
 
 <!-- START .menu -->
-<div class="menu-body">
-  <!-- START COLUMN 1 -->
-  <div class="column">
 
-    <div class="menu-div appetizer-div">
-      <h4 class='dish-style'>Appetizers</h4>
-      <!-- START ul.appetizers -->
+<div id="container" class="flexChild columnParent">
+
+  <div id="columnChild89029" class="flexChild">
+    <h3 class="menu-title">Delivery Menu</h3>
+    <p class="del-restrictions">Delivery subject to availability <em>and</em> following restrictions:</p>
+    <ul>
+      <li>Minimum order of $20, <em>and</em>;</li>
+      <li>Only within Shakopee, <em>and</em>;</li>
+      <li>Within 2-mile radius of restaurant.</li>
+    </ul>
+  </div>
+
+  <div id="columnChild31860" class="flexChild rowParent">
+    <div id="rowChild82609" class="flexChild">
+
+      <div class="menu-div appetizer-div">
+        <h4 class='dish-style'>Appetizers</h4>
+        <!-- START ul.appetizers -->
+          <ul class="leaders">
+            <li><span class='dish'>Egg Rolls<i class="dish-desc"> (2)</i></span><span>3.95</span></li>
+            <li><span class='dish'>Cream Cheese Wontons<i class="dish-desc"> (6)</i></span><span>3.95</span></li>
+            <li><span class='dish'>Fried Spring Rolls<i class="dish-desc"> (2)</i></span><span>3.95</span></li>
+            <li><span class='dish'>Fried Sweet Doughnuts<i class="dish-desc"> (10)</i></span><span>3.95</span></li>
+            <li><span class='dish'>Chicken Nuggets<i class="dish-desc"> (10)</i></span><span>3.95</span></li>
+            <li><span class='dish'>French Fries</span><span>3.95</span></li>
+            <li><span class='dish'>Fried Onion Rings</span><span>3.95</span></li>
+            <li><span class='dish'>Fried Shrimp<i class="dish-desc"> (6)</i></span><span>4.95</span></li>
+            <li><span class='dish'>Fried Scallops<i class="dish-desc"> (8)</i></span><span>4.95</span></li>
+            <li><span class='dish'>Fried Tofu</span><span>4.95</span></li>
+            <li><span class='dish'>Steamed Dumplings<i class="dish-desc"> (6)</i></span><span>5.95</span></li>
+            <li><span class='dish'>Fried Dumplings<i class="dish-desc"> (6)</i></span><span>5.95</span></li>
+            <li><span class='dish'>Teriyaki Chicken Wings<i class="dish-desc"> (6)</i></span><span>5.95</span></li>
+            <li><span class='dish'>Chicken Wings<i class="dish-desc"> (6)</i></span><span>5.95</span></li>
+            <li><span class='dish'>BBQ Pork</span><span>5.95</span></li>
+            <li><span class='dish'>Teriyaki Chicken<i class="dish-desc"> (4)</i></span><span>6.95</span></li>
+            <li><span class='dish'>Teriyaki Beef<i class="dish-desc"> (4)</i></span><span>6.95</span></li>
+          </ul>
+        <!-- END ul.appetizers -->
+      </div>
+
+      <div class="menu-div fried-rice-div">
+        <h4 class='dish-style'>Fried Rice</h4>
+        <!-- START ul.fried-rice -->
+          <ul class="leaders">
+            <li><span class='dish'>Vegetable</span><span>7.95</span></li>
+            <li><span class='dish'>Chicken</span><span>8.95</span></li>
+            <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
+            <li><span class='dish'>Beef</span><span>9.95</span></li>
+            <li><span class='dish'>Shrimp</span><span>9.95</span></li>
+            <li><span class='dish'>House<i class="dish-desc"> &mdash; with Chicken, Roast Pork and Shrimp</i></span><span>10.95</span></li>
+            <li><span class='dish'>Thai Pineapple<i class="dish-desc"> &mdash; with Chicken and Shrimp</i></span><span>10.95</span></li>
+          </ul>
+        <!-- END ul.fried-rice -->
+      </div>
+
+      <div class="menu-div lo-mein-div">
+        <h4 class='dish-style'>Lo Mein</h4>
+        <p class="dish-style-desc">Lo Mein is made with soft noodles.</p>
+        <!-- START ul.lo-mein -->
         <ul class="leaders">
-          <li><span class='dish'>Egg Rolls<i class="dish-desc"> (2)</i></span><span>3.95</span></li>
-          <li><span class='dish'>Cream Cheese Wontons<i class="dish-desc"> (6)</i></span><span>3.95</span></li>
-          <li><span class='dish'>Fried Spring Rolls<i class="dish-desc"> (2)</i></span><span>3.95</span></li>
-          <li><span class='dish'>Fried Sweet Doughnuts<i class="dish-desc"> (10)</i></span><span>3.95</span></li>
-          <li><span class='dish'>Chicken Nuggets<i class="dish-desc"> (10)</i></span><span>3.95</span></li>
-          <li><span class='dish'>French Fries</span><span>3.95</span></li>
-          <li><span class='dish'>Fried Onion Rings</span><span>3.95</span></li>
-          <li><span class='dish'>Fried Shrimp<i class="dish-desc"> (6)</i></span><span>4.95</span></li>
-          <li><span class='dish'>Fried Scallops<i class="dish-desc"> (8)</i></span><span>4.95</span></li>
-          <li><span class='dish'>Fried Tofu</span><span>4.95</span></li>
-          <li><span class='dish'>Steamed Dumplings<i class="dish-desc"> (6)</i></span><span>5.95</span></li>
-          <li><span class='dish'>Fried Dumplings<i class="dish-desc"> (6)</i></span><span>5.95</span></li>
-          <li><span class='dish'>Teriyaki Chicken Wings<i class="dish-desc"> (6)</i></span><span>5.95</span></li>
-          <li><span class='dish'>Chicken Wings<i class="dish-desc"> (6)</i></span><span>5.95</span></li>
-          <li><span class='dish'>BBQ Pork</span><span>5.95</span></li>
-          <li><span class='dish'>Teriyaki Chicken<i class="dish-desc"> (4)</i></span><span>6.95</span></li>
-          <li><span class='dish'>Teriyaki Beef<i class="dish-desc"> (4)</i></span><span>6.95</span></li>
+          <li><span class='dish'>Plain</span><span>6.95</span></li>
+          <li><span class='dish'>Vegetable</span><span>7.95</span></li>
+          <li><span class='dish'>Chicken</span><span>8.95</span></li>
+          <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
+          <li><span class='dish'>Beef</span><span>995</span></li>
+          <li><span class='dish'>Shrimp</span><span>10.95</span></li>
+          <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> House<i class="dish-desc"> &mdash; with Chicken, Roast Pork & Shrimp</i></span><span>10.95</span></li>
+          <li><span class='dish'>Seafood<i class="dish-desc"> &mdash; with Shrimp, Crab Meat & Squid</i></span><span>12.95</span></li>
         </ul>
-      <!-- END ul.appetizers -->
-    </div>
+        <!-- END ul.lo-mein -->
+      </div>
 
-    <div class="menu-div fried-rice-div">
-      <h4 class='dish-style'>Fried Rice</h4>
-      <!-- START ul.fried-rice -->
+      <div class="menu-div mai-fun-div">
+        <h4 class='dish-style'>Mai Fun</h4>
+        <!-- START ul.mai-fun -->
         <ul class="leaders">
           <li><span class='dish'>Vegetable</span><span>7.95</span></li>
           <li><span class='dish'>Chicken</span><span>8.95</span></li>
           <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
           <li><span class='dish'>Beef</span><span>9.95</span></li>
-          <li><span class='dish'>Shrimp</span><span>9.95</span></li>
-          <li><span class='dish'>House<i class="dish-desc"> &mdash; with Chicken, Roast Pork and Shrimp</i></span><span>10.95</span></li>
-          <li><span class='dish'>Thai Pineapple<i class="dish-desc"> &mdash; with Chicken and Shrimp</i></span><span>10.95</span></li>
+          <li><span class='dish'>Shrimp</span><span>10.95</span></li>
+          <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Singapore<i class="dish-desc"> &mdash; with Pork & Shrimp</i></span><span>10.95</span></li>
+          <li><span class='dish'>House<i class="dish-desc"> &mdash; with Chicken, Roast Pork & Shrimp</i></span><span>11.95</span></li>
+          <li><span class='dish'>Seafood<i class="dish-desc"> &mdash; with Shrimp, Crab Meat & Squid</i></span><span>12.96</span></li>
         </ul>
-      <!-- END ul.fried-rice -->
-    </div>
+        <!-- END ul.mai-fun -->
+      </div>
 
-    <div class="menu-div lo-mein-div">
-      <h4 class='dish-style'>Lo Mein</h4>
-      <p class="dish-style-desc">Lo Mein is made with soft noodles.</p>
-      <!-- START ul.lo-mein -->
-      <ul class="leaders">
-        <li><span class='dish'>Plain</span><span>6.95</span></li>
-        <li><span class='dish'>Vegetable</span><span>7.95</span></li>
-        <li><span class='dish'>Chicken</span><span>8.95</span></li>
-        <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
-        <li><span class='dish'>Beef</span><span>995</span></li>
-        <li><span class='dish'>Shrimp</span><span>10.95</span></li>
-        <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> House<i class="dish-desc"> &mdash; with Chicken, Roast Pork & Shrimp</i></span><span>10.95</span></li>
-        <li><span class='dish'>Seafood<i class="dish-desc"> &mdash; with Shrimp, Crab Meat & Squid</i></span><span>12.95</span></li>
-      </ul>
-      <!-- END ul.lo-mein -->
-    </div>
+      <div class="menu-div chow-fun-div">
+        <h4 class='dish-style'>Chow Fun</h4>
+        <!-- START ul.chow-fun -->
+        <ul class="leaders">
+          <li><span class='dish'>Vegetable</span><span>7.95</span></li>
+          <li><span class='dish'>Chicken</span><span>8.95</span></li>
+          <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
+          <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Beef</span><span>10.95</span></li>
+          <li><span class='dish'>Shrimp</span><span>10.95</span></li>
+          <li><span class='dish'>House<i class="dish-desc"> &mdash; with Chicken, Roast Pork & Shrimp</i></span><span>10.95</span></li>
+          <li><span class='dish'>Seafood<i class="dish-desc"> &mdash; with Shrimp, Crab Meat & Squid</i></span><span>12.95</span></li>
+        </ul>
+        <!-- END ul.chow-fun -->
+      </div>
 
-    <div class="menu-div mai-fun-div">
-      <h4 class='dish-style'>Mai Fun</h4>
-      <!-- START ul.mai-fun -->
-      <ul class="leaders">
-        <li><span class='dish'>Vegetable</span><span>7.95</span></li>
-        <li><span class='dish'>Chicken</span><span>8.95</span></li>
-        <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
-        <li><span class='dish'>Beef</span><span>9.95</span></li>
-        <li><span class='dish'>Shrimp</span><span>10.95</span></li>
-        <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Singapore<i class="dish-desc"> &mdash; with Pork & Shrimp</i></span><span>10.95</span></li>
-        <li><span class='dish'>House<i class="dish-desc"> &mdash; with Chicken, Roast Pork & Shrimp</i></span><span>11.95</span></li>
-        <li><span class='dish'>Seafood<i class="dish-desc"> &mdash; with Shrimp, Crab Meat & Squid</i></span><span>12.96</span></li>
-      </ul>
-      <!-- END ul.mai-fun -->
-    </div>
+      <div class="menu-div sweet-sour-div">
+        <h4 class='dish-style'>Sweet and Sour</h4>
+        <p class="dish-style-desc">Sweet and Sour style is served with White Rice.</p>
+        <!-- START ul.sweet-sour -->
+        <ul class="leaders">
+          <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
+          <li><span class='dish'>Pork</span><span>8.95</span></li>
+          <li><span class='dish'>Shrimp</span><span>8.95</span></li>
+        </ul>
+        <!-- END ul.sweet-sour -->
+      </div>
 
-    <div class="menu-div chow-fun-div">
-      <h4 class='dish-style'>Chow Fun</h4>
-      <!-- START ul.chow-fun -->
-      <ul class="leaders">
-        <li><span class='dish'>Vegetable</span><span>7.95</span></li>
-        <li><span class='dish'>Chicken</span><span>8.95</span></li>
-        <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
-        <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Beef</span><span>10.95</span></li>
-        <li><span class='dish'>Shrimp</span><span>10.95</span></li>
-        <li><span class='dish'>House<i class="dish-desc"> &mdash; with Chicken, Roast Pork & Shrimp</i></span><span>10.95</span></li>
-        <li><span class='dish'>Seafood<i class="dish-desc"> &mdash; with Shrimp, Crab Meat & Squid</i></span><span>12.95</span></li>
-      </ul>
-      <!-- END ul.chow-fun -->
-    </div>
-
-    <div class="menu-div sweet-sour-div">
-      <h4 class='dish-style'>Sweet and Sour</h4>
-      <p class="dish-style-desc">Sweet and Sour style is served with White Rice.</p>
-      <!-- START ul.sweet-sour -->
-      <ul class="leaders">
-        <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
-        <li><span class='dish'>Pork</span><span>8.95</span></li>
-        <li><span class='dish'>Shrimp</span><span>8.95</span></li>
-      </ul>
-      <!-- END ul.sweet-sour -->
-    </div>
-
-    <div class="menu-div kung-pao-div">
-      <h4 class='dish-style'>Kung Pao</h4>
-      <p class="dish-style-desc">Kung Pao style is a spicy stir-fry dish topped with Peanuts and served with White Rice.</p>
-      <p class="dish-style-desc">Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.</p>
-      <!-- START ul.kung-pao -->
-      <ul class="leaders">
-        <li><span class='dish'>Fried Tofu</span><span>7.95</span></li>
-        <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
-        <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
-        <li><span class='dish'>Beef</span><span>9.95</span></li>
-        <li><span class='dish'>Shrimp</span><span>10.95</span></li>
-      </ul>
-    </div>
-
-
-  </div>
-  <!-- END COLUMN 1 -->
-
-  <!-- START COLUMN 2 -->
-  <div class="column">
-
-
-
-    <div class="menu-div szechuan-div">
-      <h4 class='dish-style'>Szechuan</h4>
-      <p class="dish-style-desc">Szechuan style is a Red Chili-based sauce stir fried with Vegetables and served with White Rice.</p>
-      <p class="dish-style-desc">Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.</p>
-      <!-- START ul.kung-pao -->
-      <ul class="leaders">
-        <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
-        <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
-        <li><span class='dish'>Beef</span><span>9.95</span></li>
-        <li><span class='dish'>Shrimp</span><span>10.95</span></li>
-      </ul>
-    </div>
-
-    <div class="menu-div chefs-special-div">
-      <h4 class='dish-style'>Chef's Specials</h4>
-      <p class="dish-style-desc">Chef's Special dishes are served with White Rice.</p>
-      <!-- START ul.chefs-special -->
-      <ul class="leaders">
-        <li><span class="dish"><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> General's Chicken</span><span>10.95</span></li>
-        <li><span class="dish">Lemon Chicken</span><span>10.95</span></li>
-        <li><span class="dish">Orange Chicken</span><span>10.95</span></li>
-        <li><span class="dish">Orange Shrimp</span><span>12.95</span></li>
-        <li><span class="dish">Happy Family<i class="dish-desc"> &mdash; Chicken, Beef, Shrimp, Roast Pork with Mixed Vegetables in a Brown Sauce</i></span><span>14.95</span></li>
-        <li><span class="dish">Four Seasons<i class="dish-desc"> &mdash; Chicken, Beef, Shrimp, and Roast Pork with Mixed Vegetables in a Brown Sauce</i></span><span>14.95</span></li>
-        <li><span class="dish">Triple Crown<i class="dish-desc"> &mdash; Chicken, Beef and Shrimp with mixed vegetables in a brown sauce</i></span><span>13.95</span></li>
-        <li><span class="dish">Lover's Delight<i class="dish-desc"> &mdash; two dishes in one, Hunan Beef and General's Chicken</i></span><span>14.95</span></li>
-        <li><span class="dish">Salt and Pepper Squid<i class="dish-desc"> &mdash; Cantonese-style Calamari</i></span><span>14.95</span></li>
-        <li><span class="dish">Salt and Pepper Shrimp</span><span>14.95</span></li>
-        <li><span class="dish"><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Dragon and Phoenix<i class="dish-desc"> &mdash; two dishes in one, General's Chicken and Hot and Spicy Shrimp</i></span><span>14.95</span></li>
-        <li><span class="dish">Seafood Pan Fried Noodles<i class="dish-desc"> &mdash; Shrimp, Scallops, Crab Meat and Squid with Mixed Vegetables on top of Crispy, Pan-fried Noodles in a Brown Sauce</i></span><span>17.95</span></li>
-        <li><span class="dish">Twin Cities Hunan Style<i class="dish-desc"> &mdash; Shrimp and Scallops stir-fry with Mixed Vegetables Hunan Style</i></span><span>16.95</span></li>
-        <li><span class="dish">Seafood Delight<i class="dish-desc"> &mdash; Shrimp, Scallops, Crab Meat and Squid stir fried with Mixed Vegetables</i></span><span>17.95</span></li>
-        <li><span class="dish">Seven Stars<i class="dish-desc"> &mdash; Chicken, Roast Pork, Crab Meat and Mixed Vegetables topped with seven Jumbo Fried Shrimp</i></span><span>16.95</span></li>
-      </ul>
-      <!-- END ul.chefs-special -->
+      <div class="menu-div kung-pao-div">
+        <h4 class='dish-style'>Kung Pao</h4>
+        <p class="dish-style-desc">Kung Pao style is a spicy stir-fry dish topped with Peanuts and served with White Rice.</p>
+        <p class="dish-style-desc">Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.</p>
+        <!-- START ul.kung-pao -->
+        <ul class="leaders">
+          <li><span class='dish'>Fried Tofu</span><span>7.95</span></li>
+          <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
+          <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
+          <li><span class='dish'>Beef</span><span>9.95</span></li>
+          <li><span class='dish'>Shrimp</span><span>10.95</span></li>
+        </ul>
+      </div>
 
     </div>
 
-    <div class="menu-div pad-thai-div">
-      <h4 class='dish-style'>Pad Thai</h4>
-      <p class="dish-style-desc">Pad Thai is Rice Noodles stir fried with Eggs, Bean Sprouts, Green Onions, and Garlic all topped with roasted ground Peanuts.</p>
-      <!-- START ul.pad-thai -->
-      <ul class="leaders">
-        <li><span class='dish'>Fried Tofu</span><span>8.95</span></li>
-        <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>9.95</span></li>
-        <li><span class='dish'>Roast Pork</span><span>9.95</span></li>
-        <li><span class='dish'>Beef</span><span>10.95</span></li>
-        <li><span class='dish'>Shrimp</span><span>11.95</span></li>
+    <div id="rowChild41980" class="flexChild">
+      <div class="menu-div szechuan-div">
+        <h4 class='dish-style'>Szechuan</h4>
+        <p class="dish-style-desc">Szechuan style is a Red Chili-based sauce stir fried with Vegetables and served with White Rice.</p>
+        <p class="dish-style-desc">Specify the level of spiciness from 1 to 5; 1 is not spicy, 5 is extra spicy.</p>
+        <!-- START ul.kung-pao -->
+        <ul class="leaders">
+          <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
+          <li><span class='dish'>Roast Pork</span><span>8.95</span></li>
+          <li><span class='dish'>Beef</span><span>9.95</span></li>
+          <li><span class='dish'>Shrimp</span><span>10.95</span></li>
+        </ul>
+      </div>
 
-      </ul>
+      <div class="menu-div chefs-special-div">
+        <h4 class='dish-style'>Chef's Specials</h4>
+        <p class="dish-style-desc">Chef's Special dishes are served with White Rice.</p>
+        <!-- START ul.chefs-special -->
+        <ul class="leaders">
+          <li><span class="dish"><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> General's Chicken</span><span>10.95</span></li>
+          <li><span class="dish">Lemon Chicken</span><span>10.95</span></li>
+          <li><span class="dish">Orange Chicken</span><span>10.95</span></li>
+          <li><span class="dish">Orange Shrimp</span><span>12.95</span></li>
+          <li><span class="dish">Happy Family<i class="dish-desc"> &mdash; Chicken, Beef, Shrimp, Roast Pork with Mixed Vegetables in a Brown Sauce</i></span><span>14.95</span></li>
+          <li><span class="dish">Four Seasons<i class="dish-desc"> &mdash; Chicken, Beef, Shrimp, and Roast Pork with Mixed Vegetables in a Brown Sauce</i></span><span>14.95</span></li>
+          <li><span class="dish">Triple Crown<i class="dish-desc"> &mdash; Chicken, Beef and Shrimp with mixed vegetables in a brown sauce</i></span><span>13.95</span></li>
+          <li><span class="dish">Lover's Delight<i class="dish-desc"> &mdash; two dishes in one, Hunan Beef and General's Chicken</i></span><span>14.95</span></li>
+          <li><span class="dish">Salt and Pepper Squid<i class="dish-desc"> &mdash; Cantonese-style Calamari</i></span><span>14.95</span></li>
+          <li><span class="dish">Salt and Pepper Shrimp</span><span>14.95</span></li>
+          <li><span class="dish"><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Dragon and Phoenix<i class="dish-desc"> &mdash; two dishes in one, General's Chicken and Hot and Spicy Shrimp</i></span><span>14.95</span></li>
+          <li><span class="dish">Seafood Pan Fried Noodles<i class="dish-desc"> &mdash; Shrimp, Scallops, Crab Meat and Squid with Mixed Vegetables on top of Crispy, Pan-fried Noodles in a Brown Sauce</i></span><span>17.95</span></li>
+          <li><span class="dish">Twin Cities Hunan Style<i class="dish-desc"> &mdash; Shrimp and Scallops stir-fry with Mixed Vegetables Hunan Style</i></span><span>16.95</span></li>
+          <li><span class="dish">Seafood Delight<i class="dish-desc"> &mdash; Shrimp, Scallops, Crab Meat and Squid stir fried with Mixed Vegetables</i></span><span>17.95</span></li>
+          <li><span class="dish">Seven Stars<i class="dish-desc"> &mdash; Chicken, Roast Pork, Crab Meat and Mixed Vegetables topped with seven Jumbo Fried Shrimp</i></span><span>16.95</span></li>
+        </ul>
+        <!-- END ul.chefs-special -->
+
+      </div>
+
+      <div class="menu-div pad-thai-div">
+        <h4 class='dish-style'>Pad Thai</h4>
+        <p class="dish-style-desc">Pad Thai is Rice Noodles stir fried with Eggs, Bean Sprouts, Green Onions, and Garlic all topped with roasted ground Peanuts.</p>
+        <!-- START ul.pad-thai -->
+        <ul class="leaders">
+          <li><span class='dish'>Fried Tofu</span><span>8.95</span></li>
+          <li><span class='dish'><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>9.95</span></li>
+          <li><span class='dish'>Roast Pork</span><span>9.95</span></li>
+          <li><span class='dish'>Beef</span><span>10.95</span></li>
+          <li><span class='dish'>Shrimp</span><span>11.95</span></li>
+
+        </ul>
+      </div>
+
+      <div class="menu-div cashew-div">
+        <h4 class='dish-style'>Cashew</h4>
+        <p class="dish-style-desc">Cashew style is stir fried with Vegetables topped with Cashews and served with White Rice.</p>
+        <!-- START ul.cashew -->
+        <ul class="leaders">
+          <li><span class="dish"><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
+          <li><span class="dish">Roast Pork</span><span>8.95</span></li>
+          <li><span class="dish">Beef</span><span>9.95</span></li>
+          <li><span class="dish">Shrimp</span><span>10.95</span></li>
+        </ul>
+        <!-- END ul.cashew -->
+      </div>
+
+      <div class="menu-div curry-div">
+        <h4 class='dish-style'>Curry</h4>
+        <p class="dish-style-desc">Curry style is served with White Rice.</p>
+        <!-- START ul.curry -->
+        <ul class="leaders">
+          <li><span class="dish">Fried Tofu</span><span>8.95</span></li>
+          <li><span class="dish"><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
+          <li><span class="dish">Roast Pork</span><span>8.95</span></li>
+          <li><span class="dish">Beef</span><span>9.95</span></li>
+          <li><span class="dish">Shrimp</span><span>10.95</span></li>
+        </ul>
+        <!-- END ul.curry -->
+      </div>
+
+      <div class="menu-div veggie-delight-div">
+        <h4 class='dish-style'>Veggie Delight</h4>
+        <p class="dish-style-desc">Veggie Delight is Brown Sauce stir fried Vegetables served with White Rice.</p>
+        <!-- START ul.veggie-delight -->
+        <ul class="leaders">
+          <li><span class="dish">Vegetable Delights<i class="dish-desc"> &mdash; Mixed Vegetables: Broccoli, Carrots, Green and Red Peppers, Onions, and Mushrooms</i></span><span>8.95</span></li>
+          <li><span class="dish">Tofu and Mixed Vegetables</span><span>8.95</span></li>
+          <li><span class="dish">General Tofu<i class="dish-desc"> &mdash; Deep-fried Tofu in our signature sweet and tangy General's Sauce</i></span><span>8.95</span></li>
+        </ul>
+        <!-- END ul.veggie-delight -->
+      </div>
+
+      <div class="menu-div beverage-div">
+        <h4 class='dish-style'>Beverages</h4>
+        <p class="dish-style-desc">All beverages for delivery are 20 fl. oz. bottled soft drinks.</p>
+        <!-- START ul.beverages -->
+        <ul class="leaders">
+          <li><span class="dish">Pepsi</span><span>2.50</span></li>
+          <li><span class="dish">Diet Pepsi</span><span>2.50</span></li>
+          <li><span class="dish">Mountain Dew</span><span>2.50</span></li>
+          <li><span class="dish">Dr. Pepper</span><span>2.50</span></li>
+          <li><span class="dish">Mist Twist</span><span>2.50</span></li>
+          <li><span class="dish">Orange Crush</span><span>2.50</span></li>
+          <li><span class="dish">Lemon Iced Tea</span><span>2.50</span></li>
+          <li><span class="dish">Lemonade</span><span>2.50</span></li>
+        </ul>
+        <!-- END ul.beverages -->
+      </div>
+
     </div>
+</div>
+</div>
 
-    <div class="menu-div cashew-div">
-      <h4 class='dish-style'>Cashew</h4>
-      <p class="dish-style-desc">Cashew style is stir fried with Vegetables topped with Cashews and served with White Rice.</p>
-      <!-- START ul.cashew -->
-      <ul class="leaders">
-        <li><span class="dish"><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
-        <li><span class="dish">Roast Pork</span><span>8.95</span></li>
-        <li><span class="dish">Beef</span><span>9.95</span></li>
-        <li><span class="dish">Shrimp</span><span>10.95</span></li>
-      </ul>
-      <!-- END ul.cashew -->
-    </div>
 
-    <div class="menu-div curry-div">
-      <h4 class='dish-style'>Curry</h4>
-      <p class="dish-style-desc">Curry style is served with White Rice.</p>
-      <!-- START ul.curry -->
-      <ul class="leaders">
-        <li><span class="dish">Fried Tofu</span><span>8.95</span></li>
-        <li><span class="dish"><img src="../images/chef-recommendation-6.png" alt="" class="chef-rec"> Chicken</span><span>8.95</span></li>
-        <li><span class="dish">Roast Pork</span><span>8.95</span></li>
-        <li><span class="dish">Beef</span><span>9.95</span></li>
-        <li><span class="dish">Shrimp</span><span>10.95</span></li>
-      </ul>
-      <!-- END ul.curry -->
-    </div>
-
-    <div class="menu-div veggie-delight-div">
-      <h4 class='dish-style'>Veggie Delight</h4>
-      <p class="dish-style-desc">Veggie Delight is Brown Sauce stir fried Vegetables served with White Rice.</p>
-      <!-- START ul.veggie-delight -->
-      <ul class="leaders">
-        <li><span class="dish">Vegetable Delights<i class="dish-desc"> &mdash; Mixed Vegetables: Broccoli, Carrots, Green and Red Peppers, Onions, and Mushrooms</i></span><span>8.95</span></li>
-        <li><span class="dish">Tofu and Mixed Vegetables</span><span>8.95</span></li>
-        <li><span class="dish">General Tofu<i class="dish-desc"> &mdash; Deep-fried Tofu in our signature sweet and tangy General's Sauce</i></span><span>8.95</span></li>
-      </ul>
-      <!-- END ul.veggie-delight -->
-    </div>
-
-  </div>
   <!-- END COLUMN 2 -->
 
 </div>
