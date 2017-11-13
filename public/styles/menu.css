@@ -2,8 +2,12 @@
 
 .menu-body {
   width: 65%;
+  /*height: 100%;*/
   margin: 0 auto;
   /*border: 1px purple solid;*/
+  border: 1pt black solid;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 /* TWO COLUMN LAYOUT */
@@ -13,7 +17,8 @@
   width: 50%;
   margin: 0 auto;
   /*padding: 5px;*/
-  /*border: 1pt red solid;*/
+  /*border: 1pt black solid;*/
+  /*border-radius: 5px;*/
 }
 
 .row:after {
@@ -25,15 +30,20 @@
 /* MENU DIV SECTIONS */
 
 .menu-div {
-  width: 95%;
+  width: 97%;
   margin: 0 auto;
-  /*border: 1pt black solid*/
+  margin-top: 5px;
+  padding-right: 5px;
+  /*border: 1pt black solid;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);*/
 }
 
 /* MENU DISH COOKING STYLE */
 
 .dish-style {
   margin: 0;
+  padding-left: 2px;
   font-size: 1.15em;
   color: #7A0309;
 }
