@@ -58,7 +58,8 @@ h1, h2 {
   font-weight: 700;
   color: #fff;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
+  !important
 }
 
 h2 {

@@ -1,0 +1,22 @@
+{
+  "name": "asian-hon-html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BluePawDev/asian-hon-html-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BluePawDev/asian-hon-html-css/issues"
+  },
+  "homepage": "https://github.com/BluePawDev/asian-hon-html-css#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  }
+}
