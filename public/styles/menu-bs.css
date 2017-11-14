@@ -1,0 +1,131 @@
+/* DELIVERY RESTRICTIONS */
+
+.del-restrisction {
+  width: 35%;
+  margin: 0 auto;
+  /*border: 1px red solid;*/
+  margin-top: 2em;
+}
+
+/* MENU BODY */
+
+.menu-head {
+  width: 100%;
+  /*text-align: center;*/
+}
+
+.menu-body {
+  /*width: 60%;*/
+  /*margin: 0 auto;*/
+  border: 1pt black solid;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* MENU DIV SECTIONS */
+
+.menu-div {
+  /*width: 95%;*/
+  /*margin: 0 auto;*/
+  /*margin-top: 5px;*/
+  /*padding-right: 5px;*/
+}
+
+/* MENU DISH COOKING STYLE */
+
+.dish-style {
+  margin: 0;
+  padding-left: 2px;
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #7A0309;
+  font-family: Rokkitt, Arial, Helvetica, sans-serif;
+}
+
+.dish-style-desc {
+  margin: 0;
+  margin-left: .5em;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  color: #3f454d;
+}
+
+/* MENU ITEMS */
+
+.chef-rec {
+  height: 16px;
+  width: 16px;
+  vertical-align: bottom;
+  margin-left: -1.4em;
+}
+
+.dish {
+  font-weight: 600;
+}
+
+.dish-desc {
+  font-weight: 500;
+  font-size: .9em;
+}
+
+/**** LEADERS ****/
+
+ul.leaders {
+  max-width: 100%;
+  overflow-x: hidden;
+  list-style: none;
+  font-size: .85em;
+  font-weight: 400;
+  color: #3f454d;
+  margin-top: .4em;
+}
+
+ul.leaders li:after {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.leaders span:first-child {
+  /*padding-right: 0.33em;*/
+  background: white
+}
+
+ul.leaders span+span {
+  float: right;
+  background: white;
+  position: relative;
+  z-index: 1
+}
+
+ul.leaders li {
+  margin-bottom: .6em;
+  margin-left: -1.55em;
+}
+
+/* IMAGES */
+
+/*li {
+  margin-left: 0;
+  padding: 0;
+  margin: 0 auto;
+}*/
+
+.cater-lead {
+  font-family: Rokkitt, Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.menu-title {
+  font-size: 2em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.del-restrictions {
+  text-align: center;
+}
