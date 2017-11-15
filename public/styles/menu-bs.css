@@ -9,47 +9,66 @@
 
 /* MENU BODY */
 
+.menu-full {
+  /*border: 5px black solid;*/
+  border: 1pt black solid;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
 .menu-head {
   width: 100%;
+  border: 5px black solid;
+  margin: 0 auto;
   /*text-align: center;*/
 }
 
 .menu-body {
   /*width: 60%;*/
   /*margin: 0 auto;*/
-  border: 1pt black solid;
-  border-radius: 10px;
-  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
+  /*border: 1pt black solid;*/
+  /*border-radius: 10px;*/
+  /*box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);*/
 }
 
 /* MENU DIV SECTIONS */
 
 .menu-div {
-  /*width: 95%;*/
+  width: 95%;
   /*margin: 0 auto;*/
   /*margin-top: 5px;*/
   /*padding-right: 5px;*/
+  /*border: 1px orange solid;*/
+  /*width: 150%;*/
+  /*width: 90%*/
 }
 
 /* MENU DISH COOKING STYLE */
 
 .dish-style {
+  /*margin: 0.2em;*/
   margin: 0;
-  padding-left: 2px;
+  padding-left: .2em;
   font-size: 1.75em;
-  font-weight: bold;
+  font-weight: 800;
   color: #7A0309;
+  text-shadow: 2px 1px 2px rgba(150, 150, 150, 1);
   font-family: Rokkitt, Arial, Helvetica, sans-serif;
+  /*border: 1px black solid*/
+  border-top: .5px gray solid;
 }
 
 .dish-style-desc {
   margin: 0;
-  margin-left: .5em;
+  padding-left: 1em;
+  /*margin-left: .5em;*/
   line-height: 18px;
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
   color: #3f454d;
+  /*border: 1px black solid;*/
 }
 
 /* MENU ITEMS */
@@ -72,38 +91,44 @@
 
 /**** LEADERS ****/
 
-ul.leaders {
-  max-width: 100%;
+ul.menu-grp {
+  max-width: 80%;
   overflow-x: hidden;
   list-style: none;
   font-size: .85em;
   font-weight: 400;
   color: #3f454d;
   margin-top: .4em;
+  /*border: 1px blue solid*/
 }
 
-ul.leaders li:after {
+ul.menu-grp li:after {
   float: left;
   width: 0;
   white-space: nowrap;
   content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . "
 }
 
-ul.leaders span:first-child {
+ul.menu-grp span:first-child {
   /*padding-right: 0.33em;*/
   background: white
 }
 
-ul.leaders span+span {
+ul.menu-grp span+span {
   float: right;
   background: white;
   position: relative;
   z-index: 1
 }
 
-ul.leaders li {
+ul.menu-grp li {
   margin-bottom: .6em;
   margin-left: -1.55em;
+  /*border: 1px green solid;*/
+}
+
+ul {
+  /*border: 1px purple solid;*/
 }
 
 /* IMAGES */
@@ -124,8 +149,17 @@ ul.leaders li {
   font-size: 2em;
   margin-bottom: 0;
   text-align: center;
+  font-family: Rokkitt, Arial, Helvetica, sans-serif;
+  text-shadow: 2px 1px 2px rgba(150, 150, 150, 1);
+  color: #7A0309;
+  font-weight: 900;
+  font-size: 2.5em;
 }
 
 .del-restrictions {
   text-align: center;
+}
+
+.menu-col-1 {
+  /*margin-left: 1.5em;*/
 }
